@@ -1,8 +1,40 @@
-body {
-    background-color: linen;
-  }
-  
-  h1 {
-    color: maroon;
-    margin-left: 40px;
-  } 
+header {
+    background: orangered;
+    padding: 45px;
+}
+
+nav{
+    padding: 10px;
+}
+nav .Menu ul{
+    list-style: none;
+}
+nav .Menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 15px;
+}
+nav .Menu ul li a{
+    color: blue;
+}
+
+nav .Search {
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;
+}
+
+article  h1{
+    text-align: center;
+    padding: 45px;
+    color: crimson;
+    text-transform: capitalize;
+}
+
+article .list .item{
+    margin-left: 15px;
+    width: 28%;
+    padding: 3%;
+    float: left;
+    margin-right: 225px;
+}
