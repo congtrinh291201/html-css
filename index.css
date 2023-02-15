@@ -1,40 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: top;
+    background: 0 0;
+}
+
 header {
-    background: orangered;
-    padding: 45px;
+    background: red;
+    height: 60px;
+    position: relative;
+}
+.menu_main{
+    margin-left: 150px;
+    list-style-type: none;
+}
+.menu_main li a {
+    padding: 25px 10px;
+}
+.menu_main li a {
+    color:white;
+    display: block;
+    padding: 19px 15px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
-nav{
-    padding: 10px;
-}
-nav .Menu ul{
-    list-style: none;
-}
-nav .Menu ul li{
+li {
     float: left;
-    line-height: 35px;
-    padding: 15px;
-}
-nav .Menu ul li a{
-    color: blue;
+  }
+Marquee {
+    width: 430px;
 }
 
-nav .Search {
-    line-height: 35px;
-    float: right;
+marquee {
+    list-style-type: none;
+    float: left;
+    width: 700px;
+    padding: 0%;
+    margin-left: 150px;
+}
+
+marquee li{
     margin-right: 25px;
 }
-
-article  h1{
-    text-align: center;
-    padding: 45px;
-    color: crimson;
-    text-transform: capitalize;
+marquee li a{
+    text-decoration: none;
 }
 
-article .list .item{
-    margin-left: 15px;
-    width: 28%;
-    padding: 3%;
-    float: left;
-    margin-right: 225px;
+.social{
+    list-style-type: none;
+    float: right;
+    margin-left: 155px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+.social li {
+    margin-left: 25px;
+}
+
+.social li a{
+    text-decoration: none;
 }
