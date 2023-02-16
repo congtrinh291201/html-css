@@ -10,11 +10,12 @@ body {
 
 header {
     background: red;
+    background-size: cover;
     height: 60px;
     position: relative;
 }
 .menu_main{
-    margin-left: 150px;
+    margin-left: 10%;
     list-style-type: none;
 }
 .menu_main li a {
@@ -28,6 +29,7 @@ header {
     text-decoration: none;
 }
 
+
 li {
     float: left;
   }
@@ -37,6 +39,7 @@ Marquee {
 
 marquee {
     list-style-type: none;
+    display: flexbox;
     float: left;
     width: 700px;
     padding: 0%;
@@ -48,6 +51,14 @@ marquee li{
 }
 marquee li a{
     text-decoration: none;
+}
+
+.News{
+    padding: 5%;
+}
+
+.News td{
+    font-size: 16px;
 }
 
 .social{
@@ -65,4 +76,8 @@ marquee li a{
 
 .social li a{
     text-decoration: none;
+}
+
+main{
+    padding: 2% 10% 2% 10%;
 }
