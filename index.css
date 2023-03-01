@@ -82,3 +82,46 @@ marquee li a{
 main{
     padding: 2% 10% 2% 10%;
 }
+
+.HotNew {
+    width: 260px;
+    float: left;
+}
+
+.HotNew .ListNews{
+    border: 1px solid #ddd;
+    min-height: inherit;
+}
+.ListNews li a{
+    text-decoration: none;
+}
+
+.ListNews li {
+    width: 100px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    list-style: none inside;
+}
+.ListNews li h2{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    display: inline;
+}
+
+.HotNews {
+    width: 600px;
+    margin-left: 15px;
+    margin-right: 25%;
+    float: right;
+}
+
+.HotNews a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.HotNews .Tittle {
+    color: black;
+    font-size: 16px;
+}
